@@ -1,7 +1,10 @@
-import './styles.css';
+import Header from "../../components/Header";
+import "./styles.css";
 
 export default function HomePage() {
-    return (
-        <h1>Página Inicial</h1>
-    );
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
