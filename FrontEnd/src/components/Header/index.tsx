@@ -1,11 +1,14 @@
-import './styles.css';
+import "./styles.css";
 
 export default function Header() {
-    return (
+  return (
     <header>
-        <nav className="im-container">
-            <h1>Header</h1>
-        </nav>
+      <nav className="im-container">
+        <div className="im-title">
+          <h1>Império</h1>
+      <h1>Multimarcas</h1>
+        </div>
+      </nav>
     </header>
-    );
+  );
 }
